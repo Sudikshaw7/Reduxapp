@@ -5,6 +5,7 @@ import { decrement, increment, reset } from './counterSlice'
 export default function Counter() {
   const count = useSelector((state) => state.counter.value)
   const dispatch = useDispatch()
+// testingg
 
   return (
     <div>
